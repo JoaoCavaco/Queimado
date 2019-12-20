@@ -1,0 +1,18 @@
+enable : true
+heading : PORQUÊ
+headingSpan : MADEIRA?
+aboutItem : 
+- icon : tf-tools
+  image : images/about/textura-deslumbrante.jpg
+  title : DESLUMBRANTE
+  content : A textura da madeira é decoração por si só. As pranchas Queimado trazem foco à sua beleza natural. 
+
+- icon : tf-strategy
+  image : images/about/sem-igual.jpg
+  title : SEM IGUAL
+  content : Cada árvore é única. Porque as nossas pranchas realçam texturas únicas, são únicas também.
+
+- icon : tf-anchor2
+  image : images/about/material-sustentavel.jpg
+  title : SUSTENTÁVEL
+  content : A natureza merece admiração e respeito. É neste espírito que damos primazia a materiais naturais.
