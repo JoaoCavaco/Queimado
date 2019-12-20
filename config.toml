@@ -1,0 +1,103 @@
+baseURL = "https://github.com/JoaoCavaco/Queimado/"
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+title = "Queimado"
+theme = "meghna-hugo"
+summaryLength = 10
+
+[taxonomies]
+  author = "author"
+  category = "categories"
+  tag = "tags"
+
+# Menu
+[menu]
+
+	[[menu.nav]]
+	name = "Porquê Madeira"
+    URL = "porquemadeira"
+    weight = 1
+
+    [[menu.nav]]
+    name = "Marca"
+    URL = "marca"
+    weight = 2
+
+    [[menu.nav]]
+    name = "Artigos"
+    URL = "artigos"
+    weight = 7
+
+    [[menu.nav]]
+    name = "Contactar"
+    URL = "contactar"
+    weight = 8
+
+
+
+# Site params
+[params]
+home= "Home"
+logo = "images/logo.png"
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+# Meta data
+description = "Responsive Multipurpose Parallax HTML5 Template"
+author = "Themefisher"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+custom_css = ["css/custom.css"]
+
+    # Banner Section
+    [params.banner]
+    enable = true
+    bgImage = "images/slider/hero-area-prancha-3.jpg"
+    icon = "tf-ion-play"
+    heading = "Curtir ao Natural"
+    content= "Pranchas de madeira para SURF, SKATE e mais"
+	btn = true
+    btnText="CONTACTAR"
+    btnURL="#contactar"
+
+    # call to action
+    [params.cta]
+    enable = true
+    title = "Great Design & Incredible Features"
+    content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
+    btnURL = "#"
+    btnText = "Start a project with us"
+
+    # counter
+    [params.counter]
+    enable = true
+    bgImage = "images/backgrounds/bg-1.jpg"
+        [[params.counter.counterItem]]
+        title = "Happy Clients"
+        icon = "tf-ion-android-happy"
+        count = "320"
+
+        [[params.counter.counterItem]]
+        title = "Projects completed"
+        icon = "tf-ion-archive"
+        count = "565"
+
+        [[params.counter.counterItem]]
+        title = "Positive feedback"
+        icon = "tf-ion-thumbsup"
+        count = "95"
+
+        [[params.counter.counterItem]]
+        title = "Cups of Coffee"
+        icon = "tf-ion-coffee"
+        count = "2500"
+
+    # footer
+    [params.footer]
+        copyright = "Themefisher"
+        copyrightURL = "http://www.themefisher.com"
+
+        # social Icons
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-facebook"
+        url = "https://www.fb.com/QueimadoSurfSkate"
+
+

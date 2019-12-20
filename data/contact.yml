@@ -1,0 +1,32 @@
+enable : true
+heading : CONTACTAR
+titleleft : Revendedores
+contentleft : Encontre os nossos artigos junto dos nossos parceiros.
+titleright : Queimado
+contentright : Entre diretamente em contacto connosco.
+enable_maps : false
+mapLatitude : 51.5223477
+mapLongitude: -0.1622023
+contactDetails :
+
+  - icon : tf-ion-ios-person
+    info : "Roberto Borges"
+    
+  - icon : tf-ion-ios-telephone-outline
+    info : "(+351) 935 352 565"
+       
+  - icon : tf-ion-ios-email-outline
+    info : "robborgesqueimado@gmail.com"
+    
+
+lojas :
+    
+  - icon : tf-ion-ios-location
+    info : "ESPAÇO AZUL"
+    local : "Ponta Delgada"
+    link : https://www.facebook.com/espacoazul/
+       
+  - icon : tf-ion-ios-location
+    info : NORTH SURGE 
+    local : "Ribeira Grande"
+    link : https://www.facebook.com/NorthSurge17/
